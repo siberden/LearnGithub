@@ -161,3 +161,64 @@ git config --global core.editor "subl -n -w"
 ### If that's not working
 sudo rm -rf /usr/local/bin/subl
 sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin
+
+====================================================
+<-----Welcome to gitHub----->
+
+How to push projects in Git Repository:
+    git init
+    git add .
+    git commit -m "Commit Names"
+    git remote add origin https://github.com/AnimeshRahmanPartha/GitHub.git
+    git push origin master
+
+    **To Force Push in Git Repository:
+        git push origin master -f
+
+Checking status of file:
+    git status
+
+Cloning from remote repo:
+    git clone <url name>
+
+Fetching from remote repo:
+    git fetch <remote repo>
+
+Temporarily stores all modified tracked files:
+    git stash
+
+Pulling from remote repo:
+    git pull <remote repo>
+
+Showing all the remotes by short name:
+    git remote
+
+Showing all the remotes by URL:
+    git remote -v
+
+Inspecting a remote:
+    git remote show <remote name>
+
+Removing a remote:
+    git remote rm origin
+
+Switch to a new branch:
+    git checkout <branch name>
+    git checkout testing
+
+Create & switch to a new branch at the same time:
+    git checkout –b <branch name>
+    git checkout –b testing
+
+Switch to the master branch:
+    git checkout master
+
+Merge command:
+    git checkout master
+    git merge testing
+
+Delete a branch:
+    git branch –d testing
+   
+==================================================
+
